@@ -25,7 +25,7 @@ export function WikiCard({
 }: WikiCardProps) {
   return (
     <Card>
-  <CardHeader className="pb-2">
+      <CardHeader className="pb-2">
         <div className="flex items-center gap-2 text-xs text-muted-foreground">
           <span>{author}</span>
           <span>•</span>

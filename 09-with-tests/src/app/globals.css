@@ -63,7 +63,7 @@
   --destructive: #ef4444;
   --border: #e6e7ea;
   --input: #f8fafc;
-  --ring: rgba(133,20,75,0.15);
+  --ring: rgba(133, 20, 75, 0.15);
   --chart-1: #7c2b4a;
   --chart-2: #a14b6b;
   --chart-3: #d5a3b8;
@@ -76,7 +76,7 @@
   --sidebar-accent: #85144b;
   --sidebar-accent-foreground: #ffffff;
   --sidebar-border: #e6e7ea;
-  --sidebar-ring: rgba(133,20,75,0.15);
+  --sidebar-ring: rgba(133, 20, 75, 0.15);
 }
 
 .dark {
@@ -96,9 +96,9 @@
   --accent: #85144b;
   --accent-foreground: #ffffff;
   --destructive: #ef4444;
-  --border: rgba(255,255,255,0.08);
-  --input: rgba(255,255,255,0.04);
-  --ring: rgba(133,20,75,0.2);
+  --border: rgba(255, 255, 255, 0.08);
+  --input: rgba(255, 255, 255, 0.04);
+  --ring: rgba(133, 20, 75, 0.2);
   --chart-1: #7c2b4a;
   --chart-2: #a14b6b;
   --chart-3: #d5a3b8;
@@ -110,8 +110,8 @@
   --sidebar-primary-foreground: #ffffff;
   --sidebar-accent: #85144b;
   --sidebar-accent-foreground: #ffffff;
-  --sidebar-border: rgba(255,255,255,0.08);
-  --sidebar-ring: rgba(133,20,75,0.2);
+  --sidebar-border: rgba(255, 255, 255, 0.08);
+  --sidebar-ring: rgba(133, 20, 75, 0.2);
 }
 
 @layer base {
@@ -125,7 +125,12 @@
 
 /* Make headings use the primary maroon color */
 @layer base {
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     color: var(--primary);
   }
 }
