@@ -65,7 +65,7 @@ export default function WikiArticleViewer({
   return (
     <div className="container mx-auto px-4 py-8 max-w-4xl">
       {/* Breadcrumb Navigation */}
-      <nav className="flex items-center space-x-2 text-sm text-muted-foreground mb-6">
+  <nav className="flex items-center space-x-2 text-sm text-muted-foreground mb-6">
         <Link
           href="/"
           className="flex items-center hover:text-foreground transition-colors"
@@ -74,13 +74,13 @@ export default function WikiArticleViewer({
           Home
         </Link>
         <ChevronRight className="h-4 w-4" />
-        <span className="text-foreground font-medium">{article.title}</span>
+        <span className="text-primary font-medium">{article.title}</span>
       </nav>
 
       {/* Article Header */}
       <div className="flex justify-between items-start mb-6">
         <div className="flex-1">
-          <h1 className="text-4xl font-bold text-foreground mb-4">
+          <h1 className="text-4xl font-bold text-primary mb-4">
             {article.title}
           </h1>
 
@@ -155,17 +155,17 @@ export default function WikiArticleViewer({
               components={{
                 // Customize heading styles
                 h1: ({ children }) => (
-                  <h1 className="text-3xl font-bold mt-8 mb-4 text-foreground">
+                  <h1 className="text-3xl font-bold mt-8 mb-4 text-primary">
                     {children}
                   </h1>
                 ),
                 h2: ({ children }) => (
-                  <h2 className="text-2xl font-semibold mt-6 mb-3 text-foreground">
+                  <h2 className="text-2xl font-semibold mt-6 mb-3 text-primary">
                     {children}
                   </h2>
                 ),
                 h3: ({ children }) => (
-                  <h3 className="text-xl font-semibold mt-4 mb-2 text-foreground">
+                  <h3 className="text-xl font-semibold mt-4 mb-2 text-primary">
                     {children}
                   </h3>
                 ),
