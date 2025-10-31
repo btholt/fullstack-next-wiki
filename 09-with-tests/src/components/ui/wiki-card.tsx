@@ -31,7 +31,7 @@ export function WikiCard({
           <span>•</span>
           <span>{date}</span>
         </div>
-        <CardTitle className="text-lg">{title}</CardTitle>
+        <CardTitle className="text-lg text-primary">{title}</CardTitle>
       </CardHeader>
       <CardContent className="py-0">
         <CardDescription>{summary}</CardDescription>
@@ -39,7 +39,7 @@ export function WikiCard({
       <CardFooter className="pt-2">
         <Link
           href={href}
-          className="text-blue-600 hover:underline text-sm font-medium w-fit"
+          className="text-primary hover:underline text-sm font-medium w-fit"
         >
           Read article &rarr;
         </Link>
